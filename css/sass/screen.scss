@@ -1,0 +1,25 @@
+@import "compass/reset";
+
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    
+    opacity: .5;
+    background-color: #000;
+    z-index: 1000;
+    overflow: hidden;
+	.loading-indicator-container{
+		position: absolute;
+    z-index: 1001;
+    opacity: 1;
+		// top:200px;
+		// left:200px;
+		width:48px;
+		height:48px;
+		background-color: #db0011;
+		.loading-indicator {}
+	}
+}
